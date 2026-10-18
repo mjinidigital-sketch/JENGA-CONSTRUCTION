@@ -39,6 +39,7 @@ import { Suspense } from "react";
 import { RouteProgressBar } from "@/components/route-progress-bar";
 import { ScrollToTop } from "@/components/scroll-to-top";
 import { ScrollRevealProvider } from "@/components/scroll-reveal-provider";
+import { FloatingContact } from "@/components/floating-contact";
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -56,6 +57,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </ScrollRevealProvider>
         <FooterSubscribe />
         <ScrollToTop />
+        <FloatingContact />
       </body>
     </html>
   );

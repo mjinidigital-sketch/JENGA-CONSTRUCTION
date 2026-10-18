@@ -79,7 +79,7 @@ export default function ContactWithMap() {
                 <div>
                   <h3 className="font-medium">Visit us</h3>
                   <p className="text-muted-foreground text-sm">
-                    100 Smith Street, Melbourne VIC 3000, Australia
+                    Jenga Street, Nairobi, Kenya
                   </p>
                 </div>
               </div>
@@ -89,10 +89,10 @@ export default function ContactWithMap() {
                 <div>
                   <h3 className="font-medium">Email us</h3>
                   <a
-                    href="mailto:hello@example.com"
+                    href="mailto:info@jengaconstruction.co.ke"
                     className="text-primary text-sm hover:underline"
                   >
-                    hello@example.com
+                    info@jengaconstruction.co.ke
                   </a>
                 </div>
               </div>
@@ -102,10 +102,10 @@ export default function ContactWithMap() {
                 <div>
                   <h3 className="font-medium">Call us</h3>
                   <a
-                    href="tel:+1234567890"
+                    href="tel:+254729396862"
                     className="text-primary text-sm hover:underline"
                   >
-                    +1 (234) 567-890
+                    +254 729 396862
                   </a>
                 </div>
               </div>

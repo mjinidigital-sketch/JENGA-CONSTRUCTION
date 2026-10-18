@@ -5,6 +5,7 @@ import ServicesSection from "@/components/blocks/marketing/services-section";
 import ProjectCards from "@/components/blocks/marketing/project-cards";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import PortfolioGallery from "@/components/blocks/marketing/gallery/portfolio-gallery";
 
 export default function Home() {
   return (
@@ -39,9 +40,13 @@ export default function Home() {
       <div className="scroll-reveal">
         <BannerWithBackgroundCTA />
       </div>
-      
+
       <div className="scroll-reveal">
         <ServicesSection />
+      </div>
+
+      <div className="scroll-reveal">
+        < PortfolioGallery />
       </div>
 
     </div>

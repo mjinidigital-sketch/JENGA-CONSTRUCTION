@@ -1,3 +1,5 @@
+"use client";
+
 import * as React from 'react';
 import { Button } from '@/components/ui/button';
 import { Eye, Tag } from 'lucide-react';
@@ -115,11 +117,11 @@ export default function PortfolioGallery() {
   }, [images, filter]);
 
   return (
-    <div className="w-full p-4 md:p-6">
+    <div className="container mx-auto px-4 md:px-8 py-16 md:py-20 border border-b w-full p-4 md:p-6">
       {/* Category filter */}
-      <div className="mb-8 flex flex-col items-center">
-        <h2 className="mb-6 text-center text-2xl font-bold">
-          Design Portfolio
+      <div className="mb-8 flex flex-col items-start">
+        <h2 className="mb-6 text-3xl sm:text-4xl md:text-5xl lg:text:6xl font-bold">
+          Our Design Portfolio
         </h2>
         <div className="flex flex-wrap justify-center gap-2">
           <Button
@@ -159,7 +161,7 @@ export default function PortfolioGallery() {
           return (
             <div
               key={index}
-              className={`group relative overflow-hidden rounded-lg ${spanClasses[image.size]}`}
+              className={`group relative overflow-hidden rounded-md ${spanClasses[image.size]}`}
             >
               <div className="relative aspect-square sm:aspect-auto sm:h-64 md:h-80">
                 <img
